@@ -1,0 +1,49 @@
+<?xml version= "1.0"  encoding= "UTF-8" ?>
+<staff>
+ 
+  <doctor>
+    <id>012345</id>
+    <pass>MSA_DR_HAMADA</pass>
+    <username>Maged</username>
+    <name>Maged Hamada</name>
+    <profilepicture>"staffprofileimages//pp012345.jpg"</profilepicture>
+    <schedule>"staffscheduleimages//schedule012345.jpg"</schedule>
+    <officehours>From 12:30 pm to 2:00 pm</officehours>
+	<contactus>0123456789</contactus>
+	<email>Mhamada@msa.eun.eg</email>
+  </doctor>
+  <ta>
+  <id>012334</id>
+    <pass>MSA_TA_Mansour</pass>
+    <username>Engy</username>
+    <name>Engy Mansour</name>
+    <profilepicture>"staffprofileimages//pp012334.jpg"</profilepicture>
+    <schedule>"staffscheduleimages//schedule012334.jpg"</schedule>
+    <officehours>From 2:30 pm to 3:00 pm</officehours>
+	<contactus>0123456799</contactus>
+	<email>Emansour@msa.eun.eg</email>
+  </ta>
+  <doctor>
+  <id>012349</id>
+    <pass> MSA_DR_Degwy</pass>
+    <username>Ghada</username>
+    <name>Ghada El Degwy</name>
+    <profilepicture>"staffprofileimages//pp012349.jpg"</profilepicture>
+    <schedule>"staffscheduleimages//schedule012349.jpg"</schedule>
+    <officehours>From 12:30 pm to 2:00 pm</officehours>
+	<contactus>01111111111</contactus>
+	<email>Gdegwy@msa.eun.eg</email>
+  </doctor>
+  <ta>
+  <id>012369</id>
+    <pass>MSA_TA_Jehad</pass>
+    <username>Heba</username>
+    <name>Heba Jehad</name>
+    <profilepicture>"staffprofileimages//pp012369.jpg"</profilepicture>
+    <schedule>"staffscheduleimages//schedule012369.jpg"</schedule>
+    <officehours>From 2:30 pm to 3:00 pm</officehours>
+	<contactus>0123321123</contactus>
+	<email>Hjehad@msa.eun.eg</email>
+  </ta>
+
+</staff>

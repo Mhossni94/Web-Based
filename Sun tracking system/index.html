@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cluster Tracking</title>
+     <link rel="shortcut icon" type="image/x-icon" href="">
+      <style>
+       #map {
+        height: 90%;
+        width: 100%;
+       }
+    </style>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC70axVCw_1PTKkbmWgsUWN8FuMMcYhdAg&callback=initMap">
+    </script>
+    <script>
+        
+function outdata() {
+     
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("output").innerHTML = this.responseText;
+            }
+        };
+        xmlhttp.open("GET","load.php",true);
+        xmlhttp.send(); 
+    
+}
+</script>
+
+    <script>
+       
+   
+    setInterval(function(){
+        outdata();
+         }
+                           , 1000);
+   
+    </script>
+   
+
+
+<!-- Police middle logo 
+<div style="margin-right: auto;margin-left: 45%"> <img style="width: 140px;" src="img/Egyptian_Police_Emblem.svg.png" > </div>-->
+
+<div id="tabl1" class="table-wrapper"  style="margin-top: 1px;" >
+<table >
+    <thead>
+  <tr>
+    <th>Cluster ID</th>
+    <th>Side ID</th>
+    <th>Compass</th>
+    <th>Angle</th>
+    <th>Delta</th>
+    <th>LDR 1 Status</th>
+    <th>LDR 2 Status</th>
+    <th>LDR 3 Status</th>
+    <th>Motor Status</th>
+    <th>potentiometer Status</th>
+    <th>Error Status</th>
+    <th>X-Coordinates</th>
+    <th>Y-Coordinates</th>
+    <th>Connection Status</th>
+    <th>Location</th>
+  </tr></thead>
+  <tbody id = "output">
+    
+  </tbody>
+</table>
+</div>
+ 
+
+
+                     
+                         <div class="Location" id="loc">
+					<img src="img/log-close.png" class ="close" onclick="Location(); ">
+                       <div id="map"></div>
+                         </div>
+</body>
+</html>

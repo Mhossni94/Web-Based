@@ -1,0 +1,68 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<students>
+
+<student>
+  	<id>123456</id>
+    <pass>Msa1234</pass>
+    <username>Mohamed</username>
+    <name>Mohamed EL Mohammedy</name>
+    <profilepicture>"stuprofileimages//pp123456.jpg"</profilepicture>
+	<enrolledcorses> 
+   		<course>MKT 111</course> 
+    	<course>MKT 112</course> 
+    	<course>MKT 113</course> 
+    	<course>MKT 114</course> 
+    </enrolledcorses>
+    <schedule>"stuscheduleimages//schedule123456.jpg"</schedule>
+	<phonenumber> 010011223344 </phonenumber>
+  </student>
+  
+  <student>
+  <id>123645</id>
+    <pass>Msa1234</pass>
+    <username>Mohamed</username>
+    <name>Mohamed Hosny Saleh</name>
+    <profilepicture>"stuprofileimages//pp123645.jpg"</profilepicture>
+	<enrolledcorses> 
+   		<course>MKT 111</course> 
+    	<course>MKT 112</course> 
+    	<course>MKT 113</course> 
+    	<course>MKT 114</course> 
+    </enrolledcorses>
+    <schedule>"stuscheduleimages//schedule2.jpg"</schedule>
+	<phonenumber>01010008990</phonenumber>
+  </student>
+  
+  <student>
+  <id>"123457"</id>
+    <pass>Msa1234</pass>
+    <username>Andrew</username>
+    <name>Andrew Sherif Sorial</name>
+    <profilepicture>"stuprofileimages//pp123457.jpg"</profilepicture>
+	<enrolledcorses> 
+   		<course>MKT 111</course> 
+    	<course>MKT 112</course> 
+    	<course>MKT 113</course> 
+    	<course>MKT 114</course> 
+    </enrolledcorses>
+    <schedule>"stuscheduleimages//schedule123457.jpg"</schedule>
+	<phonenumber>01022299907</phonenumber>
+  </student>
+  
+  <student>
+  <id>"128987"</id>
+    <pass>Msa1234</pass>
+    <username>Ghada</username>
+    <name>Ghada Samy Sabry</name>
+    <profilepicture>"stuprofileimages//pp128987.jpg"</profilepicture>
+	<enrolledcorses> 
+   		<course>MKT 111</course> 
+    	<course>MKT 112</course> 
+    	<course>MKT 113</course> 
+    	<course>MKT 114</course> 
+    </enrolledcorses>
+   <schedule>"stuscheduleimages//schedule128987.jpg"</schedule>
+	<phonenumber>01022299908</phonenumber>
+  </student>
+    
+  </students>

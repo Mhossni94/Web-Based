@@ -1,0 +1,39 @@
+<?xml version= "1.0"  encoding= "UTF-8" ?>
+<admin>
+<adminstrator>
+  <id> 01 </id>
+    <pass>MSA_ADMIN_01</pass>
+    <username>Giada</username>
+    <profilepicture>"adminprofileimages//pp01.jpg"</profilepicture>
+  </adminstrator>
+<adminstrator>
+  <id>02</id>
+    <pass>MSA_ADMIN_02</pass>
+    <username>David</username>
+    <profilepicture>"adminprofileimages//pp02.jpg"</profilepicture>
+  </adminstrator>
+  <adminstrator>
+  <id> 03 </id>
+    <pass>MSA_ADMIN_03</pass>
+    <username>Laurentiis</username>
+    <profilepicture>"adminprofileimages//pp03.jpg"</profilepicture>
+  </adminstrator>
+  <adminstrator>
+  <id> 04 </id>
+    <pass>MSA_ADMIN_04</pass>
+    <username>Lauren</username>
+    <profilepicture>"adminprofileimages//pp04.jpg"</profilepicture>
+  </adminstrator>
+  <adminstrator>
+  <id> 05 </id>
+    <pass>MSA_ADMIN_05</pass>
+    <username>GDaniel</username>
+    <profilepicture>"adminprofileimages//pp05.jpg"</profilepicture>
+  </adminstrator>
+  <adminstrator>
+  <id> 06 </id>
+    <pass>MSA_ADMIN_06</pass>
+    <username>Fathi</username>
+    <profilepicture>"adminprofileimages//pp06.jpg"</profilepicture>
+  </adminstrator>
+</admin>
